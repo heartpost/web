@@ -48,7 +48,7 @@
 
 	async function login(): Promise<void> {
 		if (localStorage.getItem('blocked')) {
-			error = 'Access from internet protocol has been temporarily limited for security reasons.';
+			error = 'Access from your internet protocol has been temporarily limited for security reasons.';
 			return;
 		}
 
@@ -64,7 +64,7 @@
 
 			if (attempts >= 3) {
 				localStorage.setItem('blocked', 'true');
-				error = 'Access from internet protocol has been temporarily limited for security reasons.';
+				error = 'Access from your internet protocol has been temporarily limited for security reasons.';
 				localStorage.removeItem('attempts');
 			}
 
