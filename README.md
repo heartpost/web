@@ -1,4 +1,4 @@
-# Web app that GETs and SENDs API requests to the database
+## Web app that `GET`s and `SEND`s API requests to the database
 
 ![login](https://github.com/heartpost/web/blob/main/src/lib/assets/1.png?raw=true)
 
